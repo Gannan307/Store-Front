@@ -1,77 +1,89 @@
 body{
-    background-color: #393D3F;
-    font-family: arial;
-  }
-body,html{
-    padding:0;
-    margin: 0;
+  background-color: #393D3F;
+  font-family: arial;
+  color: white;
 }
-  #header{
-    height: 50px;
-    align-items: center;
-    display: flex;
+html,body{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  height: 50px;
+  align-items: center;
+  display: flex;
+}
+.logo{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+#header-img{
+  height: 50px;
+  padding-right: 20px;
+}
+a{
+  padding-right: 20px;
+  color: black;
+}
+#form{
+  text-align: center;
+}
+#email{
+  background-color: gray;
+  border: solid black 1px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 30px;
+}
+#submit{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #F8988B;
+  border-radius: 5px;
+}
+p{
+  margin-top: -20px;
+}
+#video-div{
+  text-align: center;
+  margin-top: 50px;
+}
+#plant{
+  border: solid black;
+  width: 30%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+h3{
+  background-color: #F8988B;
+  height: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+.price{
+  text-align: center;
+}
+.button{
+  text-align: center;
+  margin-bottom: 10px;
+}
+#pricing{
+  display: flex;
+  margin-top: 30px;
+}
+@media (max-width:320px){
+  #nav-bar{
+    display: none;
   }
-  .logo{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    width: 70%;
-  }
-  #header-img{
-    height: 50px;
-    padding-right: 20px;
-  }
-  a{
-    padding-right: 20px;
-    color: black;
-  }
-  #form{
-    text-align: center;
-  }
-  #email{
-    background-color: gray;
-    border: solid black 1px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 30px;
-  }
-  #submit{
-    width: 100px;
-    height: 30px;
-    border: none;
-    background-color: #F8988B;
-  }
-  p{
-    margin-top: -20px;
-  }
-  #video-div{
-    text-align: center;
-    margin-top: 50px;
-  }
-  #plant{
-    border: solid black;
-    width: 30%;
-    margin-right: 3%
-  }
-  h3{
-    background-color: #F8988B;
-    height: 20px;
-    text-align: center;
-    margin-top: 0px;
-  }
-  .price{
-    text-align: center;
-  }
-  .button{
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  #pricing{
-    display: flex;
-    margin-top: 30px;
-  }
-  @media (max-width:320px){
-    #nav-bar{
-      display: none;
-    }
-  }  
+}
+.features{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
