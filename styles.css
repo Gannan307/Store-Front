@@ -1,7 +1,11 @@
-*{
-    background-color: #8C7AAE;
+body{
+    background-color: #393D3F;
     font-family: arial;
   }
+body,html{
+    padding:0;
+    margin: 0;
+}
   #header{
     height: 50px;
     align-items: center;
@@ -35,7 +39,7 @@
     width: 100px;
     height: 30px;
     border: none;
-    background-color: #665091;
+    background-color: #F8988B;
   }
   p{
     margin-top: -20px;
@@ -50,7 +54,7 @@
     margin-right: 3%
   }
   h3{
-    background-color: #665091;
+    background-color: #F8988B;
     height: 20px;
     text-align: center;
     margin-top: 0px;
